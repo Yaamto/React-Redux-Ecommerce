@@ -1,0 +1,23 @@
+.nav-top {
+    margin: 75px auto 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    background: white;
+    border-radius: 3px;
+    padding: 0px 20px;
+    box-shadow: 0 10px 20px rgba(19, 19, 19, 0.2);
+}
+
+.nav-top a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #333;
+    padding: 20px 20px;
+}
+.nav-top .active{
+    border-bottom: 5px solid black;
+    
+}
